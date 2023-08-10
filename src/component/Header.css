@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+
+.header{
+  
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+
+}
+
+.btn_box{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.start_btn {
+  background-image: url('/src/img/start.png');
+  background-repeat: no-repeat;
+ 
+  width: 151px;
+  height: 80px;
+  
+  
+}
+
+.logo {
+  background-image: url('/src/img/logo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 60px;
+}
