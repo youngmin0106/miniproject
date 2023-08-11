@@ -1,36 +1,52 @@
-import React, { Component } from "react";
-import Slider from "react-slick";
-import "~slick-carousel/slick/slick.css"; 
-import "~slick-carousel/slick/slick-theme.css";
+import Carousel from 'react-bootstrap/Carousel';
+import './Carousel.css';
+import wor from '../imgs/전사title.jpg'
+import wor2 from '../imgs/전사.jpg'
+import hunt from '../imgs/헌터title1.jpg'
+import hunt2 from '../imgs/헌터2.jpg'
+import mo from '../imgs/무도가title.jpg'
+import mo2 from '../imgs/무도가.jpg'
+import ma from '../imgs/마법사title.jpg'
+import ma2 from '../imgs/마법사.jpg'
 
-const Carousel = () => {
-
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1
-  }
-  
+const Carousela= () => {
   return (
-    <div>
-        <h2> Single Item</h2>
-        <Slider {...settings}>
-          <div>
-            <h3>1</h3>
-          </div>
-          <div>
-            <h3>2</h3>
-          </div>
-          <div>
-            <h3>3</h3>
-          </div>
-        </Slider>
-      </div>
-    );
-  } 
+    <div className='carousel'>
+    <Carousel >
+      <Carousel.Item >
+      <img src={wor}  />   
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={wor2}/>    
+      </Carousel.Item>
+    </Carousel>
+    <Carousel >
+      <Carousel.Item >
+      <img src={hunt}  />   
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={hunt2}/>    
+      </Carousel.Item>
+    </Carousel>
+    <Carousel >
+      <Carousel.Item >
+      <img src={mo}  />   
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={mo2}/>    
+      </Carousel.Item>
+    </Carousel>
+    <Carousel >
+      <Carousel.Item >
+      <img src={ma}  />   
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={ma2}/>    
+      </Carousel.Item>
+    </Carousel>
+    </div>
+    
+  );
+}
 
-export default Carousel;
-
-
+export default Carousela;
