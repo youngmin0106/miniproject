@@ -3,14 +3,16 @@
   
 }
 
-.carousel{
-  width: 475.8px;
+.carousel1 {
+  width: 470px;
   display: flex;
   justify-content: space-between;
   background: black;
   
 }
 
-.carousel img {
-  width: 500px;
+.carousel1 img {
+  width: 475px;
+  background: black;
 }
+

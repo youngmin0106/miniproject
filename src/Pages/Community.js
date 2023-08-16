@@ -1,9 +1,16 @@
+import { useState } from "react";
+import BoardList from "../component/BoardList";
+
 const Community = () =>{
+ 
   return(
-    <div>
-      커뮤니티
+   <> 
+    <div className="nav">
+      <BoardList/>
     </div>
-  )
+   
+    </>
+  );
 
   
 }

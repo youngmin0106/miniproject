@@ -11,8 +11,8 @@ import ma2 from '../imgs/마법사.jpg'
 
 const Carousela= () => {
   return (
-    <div className='carousel'>
-    <Carousel >
+    <div className='carousel1'>
+    <Carousel className='wor'>
       <Carousel.Item >
       <img src={wor}  />   
       </Carousel.Item>
@@ -20,7 +20,7 @@ const Carousela= () => {
         <img src={wor2}/>    
       </Carousel.Item>
     </Carousel>
-    <Carousel >
+    <Carousel className='hunt'>
       <Carousel.Item >
       <img src={hunt}  />   
       </Carousel.Item>
@@ -28,7 +28,7 @@ const Carousela= () => {
         <img src={hunt2}/>    
       </Carousel.Item>
     </Carousel>
-    <Carousel >
+    <Carousel className='mo'>
       <Carousel.Item >
       <img src={mo}  />   
       </Carousel.Item>
@@ -36,9 +36,9 @@ const Carousela= () => {
         <img src={mo2}/>    
       </Carousel.Item>
     </Carousel>
-    <Carousel >
+    <Carousel className='ma'>
       <Carousel.Item >
-      <img src={ma}  />   
+      <img src={ma} />   
       </Carousel.Item>
       <Carousel.Item>
         <img src={ma2}/>    

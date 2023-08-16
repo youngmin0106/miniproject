@@ -1,7 +1,9 @@
+import Guidetab from "../component/Guidetab";
+
 const Guide = () =>{
   return(
     <div>
-      가이드
+      <Guidetab/>
     </div>
   )
 }

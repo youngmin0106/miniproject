@@ -16,6 +16,7 @@ import Login from './Pages/Login';
 
 function App() {
   const [video , setVideo] = useState(data);
+ 
   
  
   return (
@@ -25,7 +26,7 @@ function App() {
       <Route path='/' element={<Main/> }/>
       <Route path='/info' element={<Info/>}/>
       <Route path='/guide' element={<Guide/>}/>
-      <Route path='/community' element={<Community/>}/>
+      <Route path='/community' element={<Community/>} />
       <Route path='/login' element={<Login/>}/>
       </Routes>
     </div>

@@ -9,13 +9,14 @@ import modoicon from '../img/무도가아이콘1.png'
 import ModoVideo from '../component/ModoVideo';
 import magiicon from '../img/마법사아이콘.png';
 import MagiVideo from '../component/MagiVideo';
+import Carousela from '../component/Carousel';
 
 
 const Info = () => {
   return (
     <>
 
-      <Carousel />
+      <Carousela />
       <div className='content'>
         <div className='jobinfo'>
           <img src={woricon} />
