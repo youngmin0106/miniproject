@@ -1,10 +1,11 @@
 *{
   box-sizing: border-box;
-  
+  margin: 0;
+  padding: 0;
 }
 
 .carousel1 {
-  width: 470px;
+  width: 475px;
   display: flex;
   justify-content: space-between;
   background: black;
@@ -12,7 +13,22 @@
 }
 
 .carousel1 img {
-  width: 475px;
+  width: 476px;
   background: black;
 }
 
+.hunt  {
+ background: black;
+}
+
+.ma{
+  background: black;
+}
+
+.mo {
+  background: black;
+}
+
+.wor{
+  background: black;
+}

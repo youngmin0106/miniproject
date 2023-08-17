@@ -1,8 +1,26 @@
 .mb-3{
   background: black;
   color: white;
+ 
 }
 
 .nav-link {
   color: white;
+  
+}
+
+.fade{
+  margin: auto;
+  text-align: center;
+  
+}
+
+.change{
+  margin-top: 50px;
+  margin-left: 830px;
+}
+
+.color{
+  color: rgb(117, 4, 251);
+  font-weight: 700;
 }
