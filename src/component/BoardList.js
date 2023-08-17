@@ -1,11 +1,11 @@
-import { Component } from "react";
+import { Component, useState } from "react";
 import Table from "react-bootstrap/Table";
 import Button from "react-bootstrap/Button";
 import './BoardList.css';
 
 class BoardList extends Component {
-
     render() {
+           
         return (
             <div className="board">
                 <Table striped bordered hover>

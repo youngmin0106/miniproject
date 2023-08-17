@@ -71,7 +71,7 @@ function Guidetab() {
       </Tab>
       <Tab eventKey="boss" title="보스 공략">
         <div className='bg'>
-          <h4>※공략을 보지않고 트라이 하실분은 <Button onClick={() => { navigate('/') }}>뒤로가기</Button> 버튼을 눌러주세요.</h4>
+          <h4>※공략을 보지않고 트라이 하실분은 <Button onClick={() => { navigate('/') }}>홈으로</Button> 버튼을 눌러주세요.</h4>
           <div className='boss1'>
             <img className='valtan' src={valtan} />
           </div>

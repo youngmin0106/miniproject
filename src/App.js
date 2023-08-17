@@ -10,6 +10,9 @@ import data from './mockdata';
 import Guide from './Pages/Guide';
 import Community from './Pages/Community';
 import Login from './Pages/Login';
+import QnA from './Pages/QnA';
+import Customer from './Pages/Customer';
+import Best from './Pages/Best';
 
 
 
@@ -27,7 +30,11 @@ function App() {
       <Route path='/info' element={<Info/>}/>
       <Route path='/guide' element={<Guide/>}/>
       <Route path='/community' element={<Community/>} />
+      <Route path='/q&a' element={<QnA/>}/>
+      <Route path='/customer' element={<Customer/>}/>
+      <Route path='/best' element={<Best/>}/>
       <Route path='/login' element={<Login/>}/>
+
       </Routes>
     </div>
   );
