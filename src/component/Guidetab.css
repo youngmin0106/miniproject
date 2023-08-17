@@ -1,26 +1,53 @@
-.mb-3{
+.mb-3 {
   background: black;
   color: white;
- 
+  margin: 0;
 }
+
+
 
 .nav-link {
   color: white;
-  
+
 }
 
-.fade{
+.fade {
   margin: auto;
   text-align: center;
-  
+
 }
 
-.change{
+.change {
   margin-top: 50px;
   margin-left: 830px;
 }
 
-.color{
+.color {
   color: rgb(117, 4, 251);
   font-weight: 700;
 }
+
+.title {
+  color: rgb(41, 105, 176);
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.bg {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+
+}
+
+.valtan {
+  width: 1000px;
+}
+
+.boss1 {
+  position: relative;
+
+}
+

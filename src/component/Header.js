@@ -17,7 +17,9 @@ const Header = ({eventImg}) => {
           <Nav className="me-auto">
             <Nav.Link onClick={()=>{navigate('/info')}}>클래스</Nav.Link>
             <Nav.Link onClick={()=>{navigate('/guide')}}>가이드</Nav.Link>
-            <Nav.Link onClick={()=>{navigate('/community')}}>커뮤니티</Nav.Link>      
+            <Nav.Link onClick={()=>{navigate('/community')}}>모집</Nav.Link>     
+            <Nav.Link onClick={()=>{navigate('/q&a')}}>Q&A</Nav.Link>
+            <Nav.Link onClick={()=>{navigate('/best')}}>우수모험가</Nav.Link>     
           </Nav>
             <div className='btn_box'>
             <Button variant="dark" className='btn'
