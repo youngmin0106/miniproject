@@ -61,10 +61,10 @@ const Click = () => {
  
   return (
     <div className="container">
-      <h1 className="search">검색할 닉네임을 입력해주세요🔍</h1>
+      <h1 className="search">🎮검색할 닉네임을 입력해주세요🎮</h1>
       <div className="inpbtn">
       <input id="q" type="text" placeholder="닉네임을 입력하세요" onChange={changeHandler} className="input"/>
-      <button className="searchbtn" onClick={Click}>프로필 검색</button>
+      <button className="searchbtn" onClick={Click}>프로필 검색🔍</button>
       </div>
 
       <div  className="profiles"/>

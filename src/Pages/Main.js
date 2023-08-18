@@ -9,6 +9,7 @@ import minevent3 from '../imgs/작은이벤트3.jpg';
 import { useNavigate } from 'react-router-dom';
 import './Main.css';
 
+
 const Main = () => {
   const navigate = useNavigate();
   return(

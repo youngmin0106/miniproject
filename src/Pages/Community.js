@@ -2,6 +2,7 @@ import { useState } from "react";
 import BoardList from "../component/BoardList";
 import Write from "../component/Write";
 
+
 const Community = () =>{
  
   return(

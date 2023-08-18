@@ -5,7 +5,7 @@ import './BoardList.css';
 
 class BoardList extends Component {
     render() {
-           
+        
         return (
             <div className="board">
                 <Table striped bordered hover>

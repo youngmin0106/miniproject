@@ -4,7 +4,6 @@ import { Route, Routes, } from 'react-router-dom';
 import Header from './component/Header';
 import React, { Component, useState } from "react";
 import Main from './Pages/Main';
-
 import Info from './Pages/Info';
 import data from './mockdata';
 import Guide from './Pages/Guide';
@@ -12,8 +11,9 @@ import Community from './Pages/Community';
 import Login from './Pages/Login';
 import QnA from './Pages/QnA';
 import Customer from './Pages/Customer';
-
 import Profiles from './Pages/profiles';
+
+
 
 
 
@@ -34,8 +34,11 @@ function App() {
       <Route path='/q&a' element={<QnA/>}/>
       <Route path='/customer' element={<Customer/>}/>
       <Route path='/profiles' element={<Profiles/>}/>
-      <Route path='/login' element={<Login/>}/>
 
+      <Route path='/login' element={<Login/>}/>
+      
+
+      <Route path='*' element={<div>존재하지 않는 페이지 입니다.</div>} />
       </Routes>
     </div>
   );
