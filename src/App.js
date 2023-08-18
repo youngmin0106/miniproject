@@ -12,7 +12,8 @@ import Community from './Pages/Community';
 import Login from './Pages/Login';
 import QnA from './Pages/QnA';
 import Customer from './Pages/Customer';
-import Best from './Pages/Best';
+
+import Profiles from './Pages/profiles';
 
 
 
@@ -32,7 +33,7 @@ function App() {
       <Route path='/community' element={<Community/>} />
       <Route path='/q&a' element={<QnA/>}/>
       <Route path='/customer' element={<Customer/>}/>
-      <Route path='/best' element={<Best/>}/>
+      <Route path='/profiles' element={<Profiles/>}/>
       <Route path='/login' element={<Login/>}/>
 
       </Routes>
