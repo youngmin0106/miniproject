@@ -6,7 +6,6 @@ const key =  'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IktYMk40TkRDSTJ5NTA5NW
 
 const Profiles = () => {
   const [characterName, setCharacterName] = useState('');
-  const [isPending, setIsPending] = useState(true);
   const [profiles, setprofiles] = useState({})
 
   
@@ -32,27 +31,13 @@ const Click = () => {
     .then((data) => { 
     
       console.log(data)
-      // let img = data.CharacterImage;
-      // let className = data.CharacterClassName;
-      // let charactername = data.characterName;
-      // let Characterlevel = data.CharacterLevel;
-      // let guildname = data.GuildName;
-      // let Townname = data.TownName;
-      
-      // let pTag = document.createElement('p');
-      // pTag.innerText = `캐릭터이미지${img}
-      //                   클래스닉네임${className}
-      //                   캐릭터닉네임${charactername}
-      //                   캐릭터레벨${Characterlevel}
-      //                   길드명${guildname}
-      //                   영지명${Townname}`
-      // Box.append(pTag); 
+   
       // document.getElementById("characterNames").innerHTML =
       // JSON.stringify(data)    
       // let temp = JSON.stringify(data);   
       // console.log('temp', temp)   
       setprofiles(data)
-      
+      //데이터를 프로필에 저장
     })
     .catch(() => {
       console.log('에러')
@@ -66,9 +51,9 @@ const Click = () => {
       <input id="q" type="text" placeholder="닉네임을 입력하세요" onChange={changeHandler} className="input"/>
       <button className="searchbtn" onClick={Click}>프로필 검색🔍</button>
       </div>
-
-      <div  className="profiles"/>
-      <h3>👇</h3><br/>  
+      {/* 호출 */}
+      <div className="profiles"/>
+      <h3>👇</h3><br/>            
       <span><span>닉네임 : </span>{profiles.CharacterName}</span><br/>
       <span><span>서버 이름: </span>{profiles.ServerName}</span><br/>
       <span><span>클래스 : </span>{profiles.CharacterClassName}</span><br/>
